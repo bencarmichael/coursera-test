@@ -1,0 +1,58 @@
+/** HEADER **/
+#header-nav {
+	background-color: gray;
+	border-radius: 0;
+	border: 3px solid black;
+	height: 100px;
+	position: relative;
+}
+
+#logo-img {
+	background: url('../images/logo_large.png') no-repeat;
+	width: 150px;
+	height: 50px;
+	margin: 10px 15px 10px 0;
+}
+
+
+#nav-list a {
+	color: black;
+	width: 100%;
+	font-size: 1.5em;
+	background: white;
+	text-align: center;
+	border: 1px solid black;
+	margin: 0;
+	z-index: 9999;
+}
+#nav-list a:hover {
+	background: orange;
+}
+
+button {
+	position: absolute;
+	top: -20px;
+	right: 0px;
+}
+
+.icon-bar {
+	border: 1px solid black;
+}
+
+h1 {
+	color: black;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/** HEADER END **/
+
+.menubox {
+	background-color: gray;
+	width: 100%;
+	padding: 10px 20px 10px;
+	margin: 20px auto 20px auto;
+}
